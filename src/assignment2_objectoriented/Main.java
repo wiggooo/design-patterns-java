@@ -1,6 +1,5 @@
 package assignment2_objectoriented;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class Main{
