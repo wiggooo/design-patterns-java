@@ -28,8 +28,10 @@ public class Storage{
 
     public static void save(List<Person> list){
         try{
+            List<Person> toSave = new LinkedList<>(list);
+
             ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream(FILE));
-            out.writeObject(list);
+            out.writeObject(toSave);
             out.close();
         }catch(Exception e){
             e.printStackTrace();

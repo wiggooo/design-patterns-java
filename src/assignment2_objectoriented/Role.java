@@ -8,7 +8,7 @@ public class Role {
         this.name = name;
 
     }
-    public String getName() {
+    public String name() {
         return name;
     }
 
