@@ -1,4 +1,4 @@
-package assignment3_singleton;
+package assignment3_singleton.Lazy;
 
 public class RootUserLazy{
     private int UID = 0;
